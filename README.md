@@ -2,30 +2,21 @@
 
 App de controle de consumo de água.
 
-## Screenshots
-
-### Splash
-
-![Screenshot da Splash](./assets/splash.png)
-
-### Home
-
-![Screenshot da Home](./assets/home.png)
-
 
 ```text
 lib/
   main.dart
-  ui/
-    splash.dart
-    home.dart
-    style/
-      colors.dart
-      theme.dart
   models/
-    consumo.dart
-  root/
-    file.dart
+    water.dart
+  screens/
+    home_screens.dart
+    splash_screens.dart
+  services/
+    storage_service.dart
+  widgets/
+    stat_card.dart
+    water_form_dialog.dart
+    water_item.dart
 ```
 
 ## Como rodar
